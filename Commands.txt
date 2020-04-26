@@ -1,0 +1,18 @@
+---------------
+Git
+---------------
+git status          => to know the status of the local repository
+git add .           => to queue all changed files to be committed
+git add file_name   => to queue a specific file to be committed
+git commit          => to commit the changes to local repository
+git push            => to publish the committed changes in local repository to remote repository
+git pull            => to bring the changes in the remote repository to th local repository
+
+---------------
+browser-sync
+---------------
+npm install -g browser-sync                             => to install browser-sync
+browser-sync start --server --directory --files "*"     => to start browser in server mode, show directory listing and 
+                                                           load all changed files 
+npm install normalize.css                               => to install normalize.css reset stylesheet 
+
